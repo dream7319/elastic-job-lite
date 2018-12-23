@@ -596,7 +596,7 @@
         </plugins>
     </reporting>
     
-    <repositories>
+    <!--<repositories>
         <repository>
             <id>alfresco-maven-repo</id>
             <url>https://maven.alfresco.com/nexus/content/groups/public/</url>
@@ -621,7 +621,7 @@
                 <enabled>false</enabled>
             </releases>
         </repository>
-    </repositories>
+    </repositories>-->
     
     <url>https://github.com/elasticjob/elastic-job</url>
     <licenses> 
@@ -664,7 +664,7 @@
         </developer>
     </developers>
     
-    <distributionManagement>
+    <!--<distributionManagement>
         <snapshotRepository>
             <id>sonatype-nexus-snapshots</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
@@ -673,5 +673,5 @@
             <id>sonatype-nexus-releases</id>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
         </repository>
-    </distributionManagement>
+    </distributionManagement>-->
 </project>
